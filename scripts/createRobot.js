@@ -60,6 +60,16 @@ function createRobot() {
     head.add(rightEye);
     robotParts.rightEye = rightEye;
 
+    // Add black pupils
+    const pupilMaterial = new THREE.MeshStandardMaterial({ color: 0x222222, metalness: 0.7, roughness: 0.3 });
+    const pupilGeometry = new THREE.SphereGeometry(0.035, 12, 10);
+    const leftPupil = new THREE.Mesh(pupilGeometry, pupilMaterial);
+    leftPupil.position.set(-0.2, 0.2, 0.51); // Slightly in front of the eye
+    head.add(leftPupil);
+    const rightPupil = new THREE.Mesh(pupilGeometry, pupilMaterial);
+    rightPupil.position.set(0.2, 0.2, 0.51);
+    head.add(rightPupil);
+
     // Create arms
     const armGeometry = new THREE.CylinderGeometry(0.1, 0.1, 1, 16);
     

@@ -20,12 +20,24 @@ function createToy() {
     rightEar.position.set(0.5, 1.6, 0);
     bear.add(rightEar);
     // Eyes
-    const leftEye = new THREE.Mesh(new THREE.SphereGeometry(0.1, 16, 16), eyeMaterial);
+    const whiteEyeMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.5 });
+    const pupilMaterial = new THREE.MeshStandardMaterial({ color: 0x222222, roughness: 0.5 });
+    // Left eye (white)
+    const leftEye = new THREE.Mesh(new THREE.SphereGeometry(0.1, 16, 16), whiteEyeMaterial);
     leftEye.position.set(-0.3, 1.3, 0.6);
     bear.add(leftEye);
-    const rightEye = new THREE.Mesh(new THREE.SphereGeometry(0.1, 16, 16), eyeMaterial);
+    // Right eye (white)
+    const rightEye = new THREE.Mesh(new THREE.SphereGeometry(0.1, 16, 16), whiteEyeMaterial);
     rightEye.position.set(0.3, 1.3, 0.6);
     bear.add(rightEye);
+    // Left pupil
+    const leftPupil = new THREE.Mesh(new THREE.SphereGeometry(0.04, 12, 10), pupilMaterial);
+    leftPupil.position.set(-0.3, 1.3, 0.7); // Slightly in front of the eye
+    bear.add(leftPupil);
+    // Right pupil
+    const rightPupil = new THREE.Mesh(new THREE.SphereGeometry(0.04, 12, 10), pupilMaterial);
+    rightPupil.position.set(0.3, 1.3, 0.7);
+    bear.add(rightPupil);
     // Nose
     const nose = new THREE.Mesh(new THREE.SphereGeometry(0.15, 16, 16), noseMaterial);
     nose.position.set(0, 1.1, 0.7);
