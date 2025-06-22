@@ -141,17 +141,17 @@ AB-ToyVerse/
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
 
 ![Interactive Robot](3.png)
-*Robot toy with interactive parts and lighting*
+*About Section*
 
 ![Teddy Bear Close-up](4.png)
-*Teddy bear with soft materials and animations*
+*contact section*
 
 </div>
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 20px;">
 
 ![Dark Mode Interface](5.png)
-*Application in dark mode with enhanced UI*
+*Footer*
 
 </div>
 
