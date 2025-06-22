@@ -119,6 +119,10 @@ AB-ToyVerse/
 - **Materials**: Boxes, Cylinders, Spheres
 - **Features**: Prehistoric robot hybrid design
 - **Interaction**: Eye animations and body part responses
+### 6. 🏠 House
+- **Materials**: Boxes, Cones
+- **Features**: Classic house design with roof
+- **Interaction**: Architectural elements and structural highlights
 
 ---
 
