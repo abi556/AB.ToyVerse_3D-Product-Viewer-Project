@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![AB ToyVerse Logo](img/logo.png)
+<img src="img/logo.png" alt="AB ToyVerse Logo" width="100" height="100">
 
 **Individual Assignment: Build an Interactive 3D Product Viewer (Basic Mesh Edition)**
 
