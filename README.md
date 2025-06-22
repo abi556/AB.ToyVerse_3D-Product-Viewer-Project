@@ -165,31 +165,40 @@ AB-ToyVerse/
 - Modern web browser with WebGL support
 - Local web server (for development)
 
-### Installation & Setup
+### Quick Start (Recommended)
 
-1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-   cd AB-ToyVerse
-   ```
+**Option 1: Direct File Opening**
+1. **Download/Extract** the project files to your computer
+2. **Double-click** on `index.html` to open it in your default browser
+3. **That's it!** The application should work immediately
 
-2. **Start Local Server**
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   
-   # Using PHP
-   php -S localhost:8000
-   ```
+**Option 2: Using a Local Server (For Development)**
+If you encounter any issues with direct file opening, use a local server:
 
-3. **Open in Browser**
-   ```
-   http://localhost:8000
-   ```
+```bash
+# Using Python 3
+python -m http.server 8000
 
+# Using Node.js
+npx serve .
+
+# Using PHP
+php -S localhost:8000
+```
+
+Then open: `http://localhost:8000`
+
+### Why Use a Server?
+- **CORS Issues**: Some browsers block certain features when opening files directly
+- **Development**: Better for testing and debugging
+- **Security**: More secure for development environments
+
+### Browser Compatibility
+- ✅ **Chrome** (Recommended)
+- ✅ **Firefox**
+- ✅ **Safari**
+- ✅ **Edge**
+- ❌ **Internet Explorer** (Not supported)
 ### Usage Instructions
 
 1. **Navigation**: Use the navigation bar to move between sections
