@@ -130,35 +130,34 @@ AB-ToyVerse/
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
 
-![Home Screen](1.png)
+<img src="1.png" alt="Home Screen" width="400" height="300" style="object-fit: cover; border-radius: 8px;">
 *Home page with hero section and 3D robot*
 
-![Products Grid](2.png)
+<img src="2.png" alt="Products Grid" width="400" height="300" style="object-fit: cover; border-radius: 8px;">
 *Products section with interactive 3D toys*
 
 </div>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
 
-![Interactive Robot](3.png)
-*About Section*
+<img src="3.png" alt="Interactive Robot" width="400" height="300" style="object-fit: cover; border-radius: 8px;">
+*Robot toy with interactive parts and lighting*
 
-![Teddy Bear Close-up](4.png)
-*contact section*
+<img src="4.png" alt="Teddy Bear Close-up" width="400" height="300" style="object-fit: cover; border-radius: 8px;">
+*Teddy bear with soft materials and animations*
 
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+<div style="display: flex; justify-content: center; margin-bottom: 20px;">
 
-![Dark Mode Interface](5.png)
-*Footer*
+<img src="5.png" alt="Dark Mode Interface" width="400" height="300" style="object-fit: cover; border-radius: 8px;">
+*Application in dark mode with enhanced UI*
 
 </div>
 
 </div>
 
 ---
-
 ## 🚀 Getting Started
 
 ### Prerequisites
