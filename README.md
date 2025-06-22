@@ -338,6 +338,6 @@ This project is created for educational purposes as part of the Interactive 3D P
 **Built with ❤️ using Three.js**
 
 *Experience the future of interactive 3D product visualization*
-*You can find my contact info from my github profile info*
+
 
 </div> 
